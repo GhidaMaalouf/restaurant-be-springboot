@@ -1,5 +1,5 @@
-restaurant/controller/version1/RestaurantController.java
- restaurant.controller.version1.RestaurantController
+restaurant/dbModel/Restaurant.java
+ restaurant.dbModel.Restaurant
 restaurant/repository/RestaurantRepository.java
  restaurant.repository.RestaurantRepository
 restaurant/repository/VisitLogRepository.java
@@ -10,5 +10,5 @@ restaurant/service/RestaurantService.java
  restaurant.service.RestaurantService
 restaurant/dbModel/VisitLog.java
  restaurant.dbModel.VisitLog
-restaurant/dbModel/Restaurant.java
- restaurant.dbModel.Restaurant
+restaurant/controller/version1/RestaurantController.java
+ restaurant.controller.version1.RestaurantController

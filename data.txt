@@ -1,5 +1,9 @@
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
-INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Zahle',50,'png','Burger House',08888190,'Fusion');
-INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Blvd',80,'png','Casino arabi',09888190,'Lebanese');
-INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Wadi',60,'png','Pain et vin',08888192,'Italian');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Zahleh',50,'../images/burgerHouse.jpg','Burger House',08888190,'Fusion');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Blvd',80,'../images/casinoArabi.jpg','Casino arabi',09888190,'Lebanese');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Wadi',100,'../images/painEtVin.jpg','Pain et vin',08888192,'Italian');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Bekaa',80,'../images/mazaj.jpg','Mazaj',08888192,'Lebanese');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Hazmieh',30,'../images/woodenBakery.jpg','Wooden Bakery',09888192,'Fusion');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Hamra',40,'../images/mcdonalds.jpg','Mcdonalds',01888192,'Fusion');
+INSERT into restaurants(id,address,average_cost,image_path,name,phone_number,type) values (uuid_generate_v4(),'Rassieh',120,'../images/cafeNajjar.jpg','Cafe Najjar',08888193,'Italian');
